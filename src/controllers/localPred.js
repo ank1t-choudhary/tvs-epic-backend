@@ -3,7 +3,7 @@ const express = require("express");
 const router = express.Router();
 
 // req.body: joiningBatch, currentBatch, semester, studentsNotToInclude, feeStructure{}, dueDate, remarks
-router.post("/local", async (req, res) => {
+router.get("/local", async (req, res) => {
     try {
         // if (
         //     !(
